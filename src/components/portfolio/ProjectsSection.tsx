@@ -31,9 +31,9 @@ const PROJECTS: Project[] = [
   {
     n: "03",
     category: "Mobile",
-    name: "TaskBug — Task Manager",
+    name: "TaskBug — Community Platform",
     description:
-      "A native Android productivity app built with Kotlin and Jetpack Compose. Features include drag-and-drop task reordering, priority tagging with color-coded labels, due-date reminders via WorkManager, and category-based filtering. Data persistence is handled through Room with offline-first architecture; Firebase Auth provides secure sign-in, and Firestore enables cross-device sync. The UI follows Material 3 guidelines with smooth shared-element transitions and haptic feedback.",
+      "TaskBug is a hyper-local community platform connecting people through a marketplace for gig-based favors and a discovery hub for social events. Emphasizing real-time interaction and proximity, the app features an interactive live map powered by Firebase Realtime Database to display active users and facilitate quick local assistance. Users can post, discover, and intelligently filter tasks or events using dynamic distance radiuses (via the Haversine formula), while coordinating instantly through integrated chat rooms. Securely managed via Firebase Auth and Firestore, TaskBug turns any local neighborhood into a collaborative network.",
     githubUrl: "https://github.com/jinishar/TaskBug",
   },
   {
